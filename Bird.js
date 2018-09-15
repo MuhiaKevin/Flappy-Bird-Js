@@ -27,7 +27,7 @@ document.addEventListener('keydown',function(e){
     // When keyboard key 'space' is pressed then subtract the velocity by 16
 
     if(e.keyCode === 32){
-      self.velY = -16
+      self.velY = -14
     }
 
 
@@ -66,14 +66,12 @@ Bird.prototype.update = function (){
 
     */
 
-
-
     this.imagesIndex = (this.imagesIndex+1) % this.images.length
   }
 
   this.y += this.velY     //updated position of the image
-  this.velY += 1;     // the speed at which the bird will fall
-  console.log(this.ticks)
+  this.velY += 1    // the speed at which the bird will fall
+  //console.log(this.ticks)
 
 }
 
