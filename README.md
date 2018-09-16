@@ -7,4 +7,4 @@ Make it playable on mobile device browsers.
 Add collision detectio
 implement a scoring system 
 
-[Check it out at (https://muhiakevin.github.io/Flappy-Bird-Js/)]
+Check it out at this [link](https://muhiakevin.github.io/Flappy-Bird-Js/).
