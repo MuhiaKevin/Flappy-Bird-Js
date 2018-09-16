@@ -4,8 +4,8 @@ Still have some work todo especially on the pipes, collision detection and scori
 
 # TODO
 
-- [x] Finish my changes
-- [ ] Push my commits to GitHub
-- [ ] Open a pull request
+- [x] Make it playable on mobile devices
+- [ ] Add collision Detection
+- [ ] Add scoring system
 
 Check it out at this [LINK](https://muhiakevin.github.io/Flappy-Bird-Js/).
