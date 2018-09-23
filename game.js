@@ -9,23 +9,19 @@ window.onload = function(){
   // create an envrioment object
   const enviroment = new Enviroment(canvas,context);
   const bird = new Bird(100,150,context);
-  const pipetop = new Pipe(canvas.width,300,document.getElementById('topPipe'),context);
-  const pipebottom = new Pipe(canvas.width,100,document.getElementById('bottomPipe'),context);
+  const pipe = new Pipe(context,canvas.width);
   gameLoop()
 
   canvas.fillStyle = "#FFFFFF";
 
   function gameLoop(){
     context.fillRect(0,0,canvas.width,canvas.height)
-    enviroment.update();
     enviroment.render();
+    enviroment.update();
     bird.update();
     bird.render();
-    pipetop.update();
-    pipetop.render();
-    pipebottom.update();
-    pipebottom.render();
-
+    pipe.render();
+    pipe.update();
     window.requestAnimationFrame(gameLoop)
 
   }
