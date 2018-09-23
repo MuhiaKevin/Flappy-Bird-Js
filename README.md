@@ -4,7 +4,7 @@ Still have some work todo.
 
 # TODO
 
-- [] Make it playable on mobile devices
+- [ ] Make it playable on mobile devices
 - [ ] Add collision Detection
 - [ ] Add scoring system
 
