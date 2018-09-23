@@ -13,7 +13,6 @@ const Pipe = function(context,canvasWidth){
 
 }
 
-
 Pipe.prototype.update = function(){
   this.pipe[0].x -= this.velX;
 
