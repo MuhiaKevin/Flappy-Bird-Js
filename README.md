@@ -9,4 +9,4 @@ Still have some work todo.
 - [ ] Add scoring system
 - [ ] Randomize the pipe position
 
-Check it out at this [LINK](https://muhiakevin.github.io/Flappy-Bird-Js/).
+Check it out at this [link](https://muhiakevin.github.io/Flappy-Bird-Js/).
