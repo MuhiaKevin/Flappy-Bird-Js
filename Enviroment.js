@@ -22,9 +22,6 @@ Enviroment.prototype.update = function () {
 
 // draw function
 Enviroment.prototype.render = function () {
-
-  
-
   for (var i = 0; i <= this.canvas.width/this.bgImg.width+1; i++) {
     this.context.drawImage(this.bgImg,this.bgPos+i*this.bgImg.width,0);
 
