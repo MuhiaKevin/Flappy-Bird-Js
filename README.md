@@ -4,7 +4,6 @@ Still have some work todo.
 
 # TODO
 
-- [ ] Make it playable on mobile devices
 - [ ] Add collision Detection
 - [ ] Add scoring system
 - [ ] Randomize the pipe position each time
